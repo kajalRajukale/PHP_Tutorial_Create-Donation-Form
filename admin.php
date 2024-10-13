@@ -115,9 +115,10 @@ try {
 </head>
 <body>
     <div class="container">
-        <h2>Admin Dashboard - Donations</h2>
+        <h2>Sumati Balwan Donations Admin Page</h2>
         <a href="logout.php" class="btn btn-danger logout-btn">Logout</a>
-        
+        <a href="send-mail.php" class="btn btn-danger logout-btn">Send by Mail</a>
+       
         <?php if (empty($donations)): ?>
             <p class="mt-4">No donations found.</p>
         <?php else: ?>
